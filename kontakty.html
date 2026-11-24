@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты — Чистый дом, уборка в Гомеле</title>
+<meta name="description" content="Телефон сервиса «Чистый дом» в Гомеле и форма заявки на уборку квартиры или дома.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Work+Sans:wght@300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap in">
+  <a class="brand" href="index.html"><b>Чистый дом</b><i>уборка квартир · Гомель</i></a>
+  <nav class="nav" id="nav"><a href="index.html">Главная</a><a href="uslugi.html">Уборка</a><a href="ceny.html">Цена и часы</a><a href="process.html">Как проходит</a><a href="o-nas.html">О сервисе</a><a href="kontakty.html" class="on">Контакты</a></nav>
+  <a class="top__tel" href="tel:+375297304567">+375 (29) 730-45-67</a>
+  <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span><span></span></button>
+</div></header>
+<main>
+<section class="sec"><div class="wrap">
+  <div class="hed"><div><div class="micro">Контакты</div><h2>Записаться на уборку</h2></div>
+  <p>Позвоните или оставьте заявку — соберём текст, который можно отправить в мессенджер.</p></div>
+  <div class="cols2">
+    <div>
+      <div class="card">
+        <div class="micro">Телефон</div>
+        <a href="__TELH__" style="display:block;font-family:'Fraunces',serif;font-size:clamp(24px,2.6vw,32px);color:var(--cream);margin:10px 0 18px">__TEL__</a>
+        <ul class="ul">
+          <li>Гомель и Гомельская область</li>
+          <li>Работаем по записи, ежедневно</li>
+          <li>Разовая уборка или постоянная основа</li>
+          <li>Поддерживающая, генеральная, после ремонта</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <form class="form" id="reqForm" novalidate>
+        <div class="field"><label for="q-type">Тип уборки</label>
+          <select id="q-type"><option value="">Выберите</option><option>Поддерживающая</option><option>Генеральная</option><option>После ремонта</option></select></div>
+        <div class="field"><label for="q-area">Площадь, м²</label><input id="q-area" type="text" inputmode="numeric" placeholder="60"></div>
+        <div class="field"><label for="q-name">Имя</label><input id="q-name" type="text" placeholder="Как к вам обращаться"></div>
+        <div class="field"><label for="q-tel">Телефон</label><input id="q-tel" type="tel" placeholder="+375"></div>
+        <div class="field full"><label for="q-note">Что важно сделать</label><textarea id="q-note" rows="3" placeholder="Например: окна, внутри шкафов, есть кошка"></textarea></div>
+        <div class="form__foot">
+          <button class="btn" type="submit">Собрать заявку</button>
+          <span class="form__hint">Откроем WhatsApp с готовым текстом — останется отправить.</span>
+        </div>
+      </form>
+      <div id="toast" class="card" style="display:none;margin-top:12px;border-color:var(--cream)">
+        <div class="micro" style="color:var(--cream)">Заявка скопирована</div>
+        <p style="margin:8px 0 0;font-size:13.5px">Текст в буфере обмена. Если WhatsApp не открылся — вставьте его в сообщение вручную.</p>
+      </div>
+    </div>
+  </div>
+</div></section></main>
+<footer class="foot"><div class="wrap">
+  <div class="foot__grid">
+    <div>
+      <div class="foot__brand">Чистый дом</div>
+      <p class="foot__p">Уборка квартир и домов в Гомеле. Поддерживающая, генеральная, после ремонта. Разово или на постоянной основе. Стоимость — за час работы.</p>
+      <a class="foot__tel" href="tel:+375297304567">+375 (29) 730-45-67</a>
+    </div>
+    <div>
+      <div class="foot__h">Страницы</div>
+      <ul><li><a href="index.html">Главная</a></li><li><a href="uslugi.html">Уборка</a></li><li><a href="ceny.html">Цена и часы</a></li><li><a href="process.html">Как проходит</a></li><li><a href="o-nas.html">О сервисе</a></li><li><a href="kontakty.html">Контакты</a></li></ul>
+    </div>
+    <div>
+      <div class="foot__h">Уборка</div>
+      <ul>
+        <li><a href="uslugi.html#support">Поддерживающая</a></li>
+        <li><a href="uslugi.html#general">Генеральная</a></li>
+        <li><a href="uslugi.html#remont">После ремонта</a></li>
+        <li><a href="ceny.html">Как считается цена</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="foot__h">Связь</div>
+      <ul>
+        <li>Гомель и область</li>
+        <li>Ежедневно, по записи</li>
+        <li><a href="kontakty.html">Оставить заявку</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot__bottom">
+    <span>© 2026 Чистый дом · Гомель</span>
+    <span>Макет: SiteFast.by</span>
+  </div>
+</div></footer>
+<a class="mark" href="kontakty.html">SiteFast.by</a>
+<script src="assets/site.js"></script>
+</body>
+</html>
